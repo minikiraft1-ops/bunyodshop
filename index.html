@@ -1,1 +1,35 @@
-
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bunyodshop</title>
+<style>
+body{background:#080914;color:white;font-family:Arial;margin:0;padding:20px}
+h1{color:#a78bfa}
+h2{color:#22d3ee}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:#15172b;border:1px solid #8b5cf6;border-radius:14px;padding:15px}
+button{background:#8b5cf6;color:white;border:0;border-radius:8px;padding:12px;width:100%}
+.price{color:#22d3ee}
+</style>
+</head>
+<body>
+<h1>⚡ BUNYODSHOP</h1>
+<p>PUBG UC • TURNIRLAR • GAMING</p>
+<h2>🔥 Mahsulotlar</h2>
+<div class="grid">
+<div class="card"><h3>🎮 60 UC</h3><p class="price">Narxni admin bilan aniqlang</p><button onclick="buy('60 UC')">Buyurtma</button></div>
+<div class="card"><h3>💎 325 UC</h3><p class="price">Narxni admin bilan aniqlang</p><button onclick="buy('325 UC')">Buyurtma</button></div>
+<div class="card"><h3>💠 660 UC</h3><p class="price">Narxni admin bilan aniqlang</p><button onclick="buy('660 UC')">Buyurtma</button></div>
+<div class="card"><h3>🏆 PUBG turniri</h3><p class="price">Tez orada</p><button onclick="buy('PUBG turniri')">Batafsil</button></div>
+</div>
+<p>Yordam: <a href="https://t.me/Bunyodcr7">@Bunyodcr7</a></p>
+<script>
+function buy(item){
+alert(item+" tanlandi!");
+window.open("https://t.me/Bunyodcr7","_blank");
+}
+</script>
+</body>
+</html>
